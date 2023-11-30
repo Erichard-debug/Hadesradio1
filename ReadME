@@ -1,0 +1,18 @@
+Welocome!
+To run this code the primary requirments are to make sure that you have the following installed to your python library
+-Numpy
+-Matplotlib
+-Plotly
+-Astropy
+
+This code is also benefited by running the text files produced by SDR#
+## https://airspy.com/download/
+
+and steps for settin up the bias tee drivers and additional pluggins needed are available here
+## https://www.rtl-sdr.com/cheap-and-easy-hydrogen-line-radio-astronomy-with-a-rtl-sdr-wifi-parabolic-grid-dish-lna-and-sdrsharp/
+
+The purpose of this file as shown by the examples in the folder SDRTextFiles is to produce a plot comparing the Reletive Intensity (dB) to the recorded frequncy measured by your SDR file. In order to do this adjust the title and the reletive path of the file as well as the Y-Min and Y-Max of the expected intensity as shown in the example below in SDR-plot.py
+
+<!-- fig, ax = plt.subplots()
+spectrumGrid(ax, 'Mounted Parabolic Build', r'SDRTextFiles\para2.txt', 0, 0.0001)
+plt.show() -->
